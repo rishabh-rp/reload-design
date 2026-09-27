@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #f0f0f0;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+}
+
+.container1{
+    height: 17%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 110px;
+    align-items: center;
+
+}
+
+.container1 .left img{
+    height: 70px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.container1 .left img:active{
+    filter: drop-shadow(0px 0px 10px black);
+}
+
+.container1 .middle{
+    display: flex;
+}
+
+.container1 .middle img{
+    height: 30px;
+    width: 45px;
+    border-radius: 10px;
+    position: relative;
+    top: 5%;
+
+}
+
+.container1 .middle h1{
+    margin-top: 30px;
+    font-size: 30px;
+    color: #51070a;
+}
+
+.container1 .middle h2{
+    position: absolute;
+    margin-top: 97px;
+    font-size: 30px;
+    margin-left: 250px;
+    color: #51070a;
+}
+
+
+.container1 .right h1{
+    margin-top: -5px;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.container2{
+    height: 43%;
+    width: 100%;
+    position: absolute;
+    top: 27%;
+}
+
+.container2 h1{
+    position: absolute;
+    top: 56%;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    color: #51070a;
+}
+
+.container2 .right{
+    height: 100%;
+    width: 60%;
+    position: relative;
+    left: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container2 .right p{
+    font-size: 15px;
+    color: #51070a;;
+}
+
+.lion{
+    height: 74%;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.lion .box{
+    height: 100%;
+    width: 23%;
+    background-color: crimson;
+}
+
+.lion .box:first-child{
+    display: flex;
+    justify-content: flex-start;
+    background-image: url(./Luntu\ Studio\ Editorial.jpg);
+    background-size: cover;
+    background-position: center 10%;
+    border-radius: 10px;
+}
+
+.lion .box:nth-child(2){
+    display: flex;
+    justify-content: flex-start;
+    background-image: url(./Mysterious\ Wavy\ Glass\ Portrait\ –\ AI\ Generated\ Art.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.lion .box:nth-child(3){
+    display: flex;
+    justify-content: flex-start;
+    background-image: url(Silent\ Picture.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+@keyframes move{
+    0%{
+        transform: translateX(0px);
+    }
+
+    50%{
+        transform: rotateY(200deg);
+    }
+
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+.lion .box:hover{
+    animation: move ease 1s;
+    
+}
+
+
+
+.container3{
+    height: 28%;
+    width: 100%;
+    margin-top: -185px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    
+} 
+
+.container3 h1{
+    color: #51070a;
+    text-transform: uppercase;
+    font-size: 45px;
+    
+}
+
+.container3 h1 span{
+    color: #ad9898;
+    text-transform: uppercase;
+}
+
+.container3 p{
+    font-size: 15px;
+    color: #51070a;
+}
+
+
+
+
+
+
+
+
+
+
